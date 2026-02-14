@@ -1,7 +1,9 @@
 {
   "name": "billiards-sydney",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Interactive map to find billiards venues in Sydney",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/billiards-sydney"},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
