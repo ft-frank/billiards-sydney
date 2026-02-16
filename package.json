@@ -3,7 +3,8 @@
   "description": "Interactive map to find billiards venues in Sydney",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/billiards-sydney"},
+    "url": "https://github.com/yourusername/billiards-sydney"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,9 +12,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.95.3",
+    "mapbox-gl": "^3.18.1",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.71.1",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
